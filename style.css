@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900&display=swap');
+
+body {
+  background-image: url(images/background.jpg);
+  height: 100vh;
+  display: flex;
+  /* Выравнивание по вертикали */
+  align-items: center;
+  /* Выравнивание по горизонтали */
+  justify-content: center;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  background: rgb(99, 6, 136);
+  width: 1500px;
+  height: 90%;
+  border: 1px solid #7e8d0f;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 500px 1fr;
+  overflow: hidden;
+}
+
+.menu {
+  background: #551155;
+  border-right: 1px solid #7f439b;
+  padding: 30px;
+}
+
+.menu_title {
+  text-align: center;
+}
+
+.menu_button {
+  background: #8B0000;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+  width: 100%;
+  font-size: 15px;
+}
+
+.forma_input {
+  border: 1px solid #D8D9D0;
+  padding: 5px 5px;
+  flex-grow: 1;
+  border: 1px solid #D8D9D0;
+  border-radius: 10px;
+}
+
+.search {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search_button {
+  height: 40px;
+  width: 40px;
+  margin: 0;
+  border: none;
+  background: url('./image/poisk') no-repeat;
+  background-color: #8B0000;
+  border-radius: 10px;
+  background-position: center;
+  justify-content: flex-end;
+}
+
+.content {
+  padding: 20px;
+}
+
+.tegs {
+  color: #74777B;
+}
+
+.tegs_li {
+  padding: 13px;
+  font-size: medium;
+  border-radius: 10px;
+}
+
+.tegs_li:hover {
+  box-shadow: 0 4px 20px 0 #F4F4F4;
+  cursor: pointer;
+  background: #F4F4F4;
+}
+
+.zadachi {
+  border: 1px solid #E3E2E5;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.zadachi__item-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
