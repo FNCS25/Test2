@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css"> 
 <title>Document</title>
 </head>
 <body>
@@ -12,11 +12,11 @@
     <h1 class="menu_title">Мои заметки</h1>
     <button class="menu_button">Новая заметка</button>
      <h2 class="tags">Теги</h2>
-    <div class="tags_li">Все</div>
-    <div class="tags_li">Идеи</div>
-    <div class="tags_li">Личное</div>
-    <div class="tags_li">Работа</div>
-    <div class="tags_li">Список покупок</div>
+    <div class="tags_li" id="all">Все</div>
+    <div class="tags_li" id="idea">Идеи</div>
+    <div class="tags_li" id="p">Личное</div>
+    <div class="tags_li" id="W">Работа</div>
+    <div class="tags_li" id="B">Список покупок</div>
   </div>
   <div class="content">
     <div class="search">
@@ -24,34 +24,39 @@
       <button class="search_button"></button>
     </div>
     <div class = "zad">
-      <div class = "zad_item">
+      <div class = "zad_item_W">
         <div class = "info-line">
           <span class = "title"> title </span>
           <span class = "work"> work </span>
         </div>
+        <button class = "delete">Удалить</button>
         <div class = "date">23 ffff 2024</div>
       </div>
-     <div class = "zad_item">
+     <div class = "zad_item_W">
         <div class = "info-line">
           <span class = "title"> title </span>
           <span class = "work"> work </span>
         </div>
+        <button class = "delete">Удалить</button>
         <div class = "date">23 ffff 2024</div>
       </div>
-      <div class = "zad_item">
+      <div class = "zad_item_idea">
         <div class = "info-line">
           <span class = "title"> title </span>
-          <span class = "work"> work </span>
+          <span class = "idea"> idea </span>
         </div>
+        <button class = "delete">Удалить</button>
         <div class = "date">23 ffff 2024</div>
       </div>
-      <div class = "zad_item">
+      <div class = "zad_item_p">
         <div class = "info-line">
           <span class = "title"> title </span>
-          <span class = "work"> work </span>
+          <span class = "work"> personal </span>
         </div>
+        <button class = "delete">Удалить</button>
         <div class = "date">23 ffff 2024</div>
       </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

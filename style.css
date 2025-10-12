@@ -130,6 +130,64 @@ body {
   border-radius: 10px;
 }
 
+.idea {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
+  border: 1px solid #055a1f;
+  background: #10521b;
+  border-radius: 10px;
+}
+
 .date {
   padding-top: 15px;
+}
+
+.zad_item_idea {
+  border: 1px solid #D8D9D0;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.zad_item_p {
+  border: 1px solid #D8D9D0;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.zad_item_W {
+  border: 1px solid #D8D9D0;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.delete {
+  float: right;
+  background-color: #551155;
+  font-size: 14px;
+}
+
+.zad {
+    max-height: 700px;
+    overflow-y: auto;  /* вертикальный скролл */
+    padding-right: 10px; /* чтобы скролл не наезжал на контент */
+}
+
+/* Стили для скроллбара */
+.zad::-webkit-scrollbar {
+    width: 8px;
+}
+
+.zad::-webkit-scrollbar-track {
+    background: #0c6105;
+    border-radius: 4px;
+}
+
+.zad::-webkit-scrollbar-thumb {
+    background: #480052;
+    border-radius: 4px;
+}
+
+.zad::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
 }
